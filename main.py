@@ -32,5 +32,5 @@ def home():
   print("來到首頁")#只有程式裡看得到
   return render_template("index.html", cat=fill)#填入空格
   
-  if __name__== '__main__':
-    app.run(debug=True, host="0.0.0.0", port="3000")#host是IP位置 port不知道(反正repl的位置數字就是固定這樣寫)
+if __name__== '__main__':
+  app.run(debug=True, host="0.0.0.0", port="3000")#host是IP位置 port不知道(反正repl的位置數字就是固定這樣寫)
